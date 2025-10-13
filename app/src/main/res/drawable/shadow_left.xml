@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 阴影层1 -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 阴影颜色 -->
+            <solid android:color="#888888" />
+            <!-- 阴影模糊度和偏移量 -->
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="0dp"
+                android:top="1dp" />
+        </shape>
+    </item>
+
+    <!-- 阴影层2 -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 阴影颜色 -->
+            <solid android:color="#D3D3D3" />
+            <!-- 阴影模糊度和偏移量 -->
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="0dp"
+                android:top="2dp" />
+        </shape>
+    </item>
+
+    <!-- 阴影层3 -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 阴影颜色 -->
+            <solid android:color="#E0E0E0" />
+            <!-- 阴影模糊度和偏移量 -->
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="0dp"
+                android:top="1dp" />
+        </shape>
+    </item>
+
+    <!-- 内容层（带边框） -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 背景颜色 -->
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+</layer-list>
