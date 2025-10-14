@@ -11,7 +11,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#008080"
+        android:background="#008585"
         android:gravity="center_vertical|start"
         android:paddingStart="15dp"
         android:paddingEnd="0dp"
@@ -27,7 +27,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="85dp"
         android:gravity="center_vertical"
         android:paddingStart="15dp"
         android:paddingEnd="0dp"
@@ -52,233 +52,193 @@
 
     <TextView
         android:id="@+id/b7"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="76dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button7"
         app:layout_constraintEnd_toStartOf="@id/b8"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@id/b4"/>
 
     <TextView
         android:id="@+id/b8"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="76dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button8"
         app:layout_constraintEnd_toStartOf="@id/b9"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b7"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@id/b5"/>
 
     <TextView
         android:id="@+id/b9"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="76dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button9"
         app:layout_constraintEnd_toStartOf="@id/b_divide"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b8"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@id/b6"/>
 
     <TextView
         android:id="@+id/b_divide"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="15dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button_divide"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b9"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@id/b_multiple"/>
 
     <TextView
         android:id="@+id/b4"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button4"
         app:layout_constraintEnd_toStartOf="@id/b5"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b7" />
+        app:layout_constraintTop_toBottomOf="@+id/b7"
+        app:layout_constraintBottom_toTopOf="@id/b1"/>
 
     <TextView
         android:id="@+id/b5"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button5"
         app:layout_constraintEnd_toStartOf="@id/b6"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b4"
-        app:layout_constraintTop_toBottomOf="@+id/b8" />
+        app:layout_constraintTop_toBottomOf="@+id/b8"
+        app:layout_constraintBottom_toTopOf="@id/b2"/>
 
     <TextView
         android:id="@+id/b6"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button9"
         app:layout_constraintEnd_toStartOf="@id/b_multiple"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b5"
-        app:layout_constraintTop_toBottomOf="@+id/b9" />
+        app:layout_constraintTop_toBottomOf="@+id/b9"
+        app:layout_constraintBottom_toTopOf="@id/b3"/>
 
     <TextView
         android:id="@+id/b_multiple"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="15dp"
         android:background="#D3D3D3"
         android:gravity="center"
-        android:text="@string/button_divide"
+        android:text="@string/button_multiply"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b6"
-        app:layout_constraintTop_toBottomOf="@+id/b_divide" />
+        app:layout_constraintTop_toBottomOf="@+id/b_divide"
+        app:layout_constraintBottom_toTopOf="@id/b_plus"/>
 
     <TextView
         android:id="@+id/b1"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button1"
         app:layout_constraintEnd_toStartOf="@id/b2"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b4" />
+        app:layout_constraintTop_toBottomOf="@+id/b4"
+        app:layout_constraintBottom_toTopOf="@id/b_dot"/>
 
     <TextView
         android:id="@+id/b2"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button2"
         app:layout_constraintEnd_toStartOf="@id/b3"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b1"
-        app:layout_constraintTop_toBottomOf="@+id/b5" />
+        app:layout_constraintTop_toBottomOf="@+id/b5"
+        app:layout_constraintBottom_toTopOf="@id/b0"/>
 
     <TextView
         android:id="@+id/b3"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button9"
         app:layout_constraintEnd_toStartOf="@id/b_plus"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b2"
-        app:layout_constraintTop_toBottomOf="@+id/b6" />
+        app:layout_constraintTop_toBottomOf="@+id/b6"
+        app:layout_constraintBottom_toTopOf="@id/b_equal"/>
 
     <TextView
         android:id="@+id/b_plus"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="15dp"
         android:background="#D3D3D3"
         android:gravity="center"
-        android:text="@string/button_divide"
+        android:text="@string/button_plus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b3"
-        app:layout_constraintTop_toBottomOf="@+id/b_multiple" />
+        app:layout_constraintTop_toBottomOf="@+id/b_multiple"
+        app:layout_constraintBottom_toTopOf="@id/b_minus"/>
 
     <TextView
         android:id="@+id/b_dot"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button_dot"
         app:layout_constraintEnd_toStartOf="@id/b0"
-        app:layout_constraintHorizontal_bias="0.012"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1" />
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
         android:id="@+id/b0"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button0"
         app:layout_constraintEnd_toStartOf="@id/b_equal"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b_dot"
-        app:layout_constraintTop_toBottomOf="@+id/b2" />
+        app:layout_constraintTop_toBottomOf="@+id/b2"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
         android:id="@+id/b_equal"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
         android:background="#D3D3D3"
         android:gravity="center"
         android:text="@string/button_equal"
         app:layout_constraintEnd_toStartOf="@id/b_minus"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b0"
-        app:layout_constraintTop_toBottomOf="@+id/b3" />
+        app:layout_constraintTop_toBottomOf="@+id/b3"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
         android:id="@+id/b_minus"
-        android:layout_width="75dp"
+        android:layout_width="85dp"
         android:layout_height="35dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="15dp"
         android:background="#D3D3D3"
         android:gravity="center"
-        android:text="@string/button_divide"
+        android:text="@string/button_minus"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toEndOf="@id/b_equal"
-        app:layout_constraintTop_toBottomOf="@+id/b_plus" />
+        app:layout_constraintTop_toBottomOf="@+id/b_plus"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
